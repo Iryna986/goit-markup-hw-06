@@ -558,8 +558,6 @@ overflow: hidden;
   margin-right: 120px;
 }
 
-.footer-social {
-}
 .footer-social-title {
   font-weight: 600;
   font-size: 16px;
@@ -602,6 +600,83 @@ overflow: hidden;
   background-color: var(--Success-color-GREEN);
   fill: var(--Light-color-Cloud);
 }
+
+/********************FOOTER FORM******************/
+
+
+
+.footer-subscribe {
+display: flex;
+
+}
+
+.footer-form {
+display: flex;
+flex-direction: column;
+width: 456px;
+
+}
+
+.subscribe-label {
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+color: var(--White);
+}
+
+
+.footer-input {
+width: 264px;
+padding: 8px 16px;
+margin-right: 24px;
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+color: var(--White);
+background-color: transparent;
+}
+
+.footer-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  border-radius: 4px;
+  border-color: transparent;
+  background-color: var(--primary-brand-IRIS);
+  transition: backgrount-color var(--transition-duration-function);
+  box-shadow: var(--transition-duration-function);
+}
+
+.footer-btn-text {
+  margin-right: 16px;
+color: var(--White);
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+background-color: var(--secondary-brand-ACTIVE);
+}
+
+.footer-form-btn:active {
+  background-color: var(--primary-brand-IRIS);
+}
+
+.footer-form-btn-icon {
+fill: var(--White);
+transition: background-color var(--transition-duration-function);
+box-shadow: var(--transition-duration-function);
+
+}
+
 
 /***************BACKDROP********************/
 .backdrop{
