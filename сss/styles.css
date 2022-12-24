@@ -608,12 +608,14 @@ overflow: hidden;
 .footer-subscribe {
 display: flex;
 
+
 }
 
 .footer-form {
 display: flex;
 flex-direction: column;
 width: 456px;
+margin-left: 80px;
 
 }
 
